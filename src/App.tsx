@@ -1,12 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Home from './components/home/home';
+import Header from './components/template/header';
+import ProductList from './components/products/product-list';
 
 function App() {
   return (
     <div className="App">
-      <Home/>
+      <Header/>
+      <ProductList/>
     </div>
   );
 }
